@@ -90,8 +90,12 @@ input:focus {
 	border-bottom: 1px solid #eee;
 	line-height: 2em;
 }
-.page-index .details .current-price{
-	
+
+.page-index .details .sales .name-product {
+	font-size: 30px;
+	line-height: 2em;
+	font-weight: 400;
+	color:#000000;
 }
 
 .page-index .details .service{
@@ -167,12 +171,13 @@ input:focus {
 .s_btn_submitorder {
 	width: 100%;
 	cursor: pointer;
-	font-size: 16px;
+	font-size: 18px;
+	font-weight: 700;
 	line-height: 42px;
 	border-radius: 4px;
 	margin: 10px 0;
 	color: #FFFFFF;
-	background-color: rgba(102,102,102,1);
+	background-color: #e31a07;
 }
 /*
 #page-index end
@@ -279,6 +284,22 @@ input:focus {
 .dxbox .propthumb:nth-child(6n){
 	margin-right: 0;
 }
+.page-order .sales_wrap{
+	color: #e31a07;
+	font-weight: bolder;
+	font-size: 20px;
+	padding-left: 10px;
+	border-bottom: 1px solid #eee;
+	line-height: 2em;
+}
+
+.page-order .sales_wrap .sales .name-product {
+	font-size: 30px;
+	line-height: 2em;
+	font-weight: 400;
+	color:#000000;
+}
+
 @media (max-width: 768px){
 	.dxbox .propthumb:nth-child(3n){
 		margin-right: 0;

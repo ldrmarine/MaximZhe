@@ -8,7 +8,7 @@ var wheel = document.querySelector(".wheel-img");
 // });
 function spin() {
   if (wheel.classList.contains("rotated")) {
-    resultWrapper.style.display = "block";
+    resultWrapper.style.display = "none";
   } else {
     wheel.classList.add("super-rotation");
     setTimeout(function () {
@@ -63,4 +63,8 @@ function tick() {
   secs = secs >= 10 ? secs : "0" + secs;
   $("#min").html("0" + mins);
   $("#sec").html(secs);
+  
 }
+$(document).ready(start_timer());
+
+

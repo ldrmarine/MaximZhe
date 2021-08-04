@@ -937,6 +937,10 @@ main {
         line-height: 27px;
         font-weight: 700;
     }
+    .item__text{
+        font-size: 30px;
+        line-height: 35px;
+    }
     
     
 

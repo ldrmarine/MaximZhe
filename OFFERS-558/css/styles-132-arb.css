@@ -278,7 +278,7 @@ section .image {
     line-height: 13px;
     text-transform: uppercase;
     position: absolute;
-    top: 46px;
+    top: 23px;
     right: 0;
 }
 
@@ -301,8 +301,8 @@ section .image {
     transform: rotate(45deg);
     white-space: nowrap;
     position: absolute;
-    top: 42px;
-    left: 21px;
+    top: 40px;
+    left: 12px;
     color: #fff;
 }
 
@@ -2275,35 +2275,66 @@ select::-ms-expand {
 }
 
 .order_steps1 .step_item:nth-child(even) .step_wrapper {
-    padding: 0 25px 0 300px;
+    padding: 0 25px 0 260px;
 }
 
 .order_steps1 .step_item:nth-child(1) .step_wrapper {
-    background: url(../images/order_steps1__step1_image-f00.arb.png) right center no-repeat;
+    background: right center no-repeat;
 }
 
 .order_steps1 .step_item:nth-child(2) .step_wrapper {
-    background: url(../images/order_steps1__step2_image-aae.arb.png) left center no-repeat;
+    background:  left center no-repeat;
 }
 
 .order_steps1 .step_item:nth-child(3) .step_wrapper {
-    background: url(../images/order_steps1__step3_image-102.arb.png) right center no-repeat;
+    background: right center no-repeat;
 }
 
 .order_steps1 .step_item:nth-child(4) .step_wrapper {
-    background: url(../images/order_steps1__step4_image-0c0.arb.png) left center no-repeat;
+    background:  left center no-repeat;
 }
 
-.order_steps1 .step_item img {
+.order_steps1 .step_item:nth-child(1) img {
     display: block;
-    width: 72px;
-    height: 52px;
+    width: 160px;
+    height: 105px;
     position: absolute;
-    top: 50%;
+    top: 25%;
     margin-top: -26px;
-    left: 50%;
+    left: 60%;
     margin-left: -36px;
 }
+.order_steps1 .step_item:nth-child(2) img {
+    display: block;
+    width: 160px;
+    height: 105px;
+    position: absolute;
+    top: 25%;
+    margin-top: -26px;
+    left: 11%;
+    margin-left: -36px;
+}
+.order_steps1 .step_item:nth-child(3) img {
+    display: block;
+    width: 160px;
+    height: 105px;
+    position: absolute;
+    top: 25%;
+    margin-top: -26px;
+    left: 60%;
+    margin-left: -36px;
+}
+.order_steps1 .step_item:nth-child(4) img {
+    display: block;
+    width: 160px;
+    height: 105px;
+    position: absolute;
+    top: 25%;
+    margin-top: -26px;
+    left: 11%;
+    margin-left: -36px;
+}
+
 
 .order_steps1 .step_item h4 {
     font-weight: 700;

@@ -1088,6 +1088,10 @@ textarea {
 		.content .content-box .content-pic .content-pic__text {
 				max-width: 250px;
 		}
+
+		.content .content-box .coments .coments-form .coment-form .form-wraps a {
+				margin-top: 2%;
+		}
 }
 /* Extra small: 0px (320px) - 480px */
 @media (max-width: 479px) {
@@ -1110,6 +1114,10 @@ textarea {
 		.content .content-box .text-box .text-box__img3 .text-box__desc img {
 				max-height: 230px;
 				margin-top: -38%;
+		}
+
+		.content .content-box .coments .coments-form .coment-form .form-wraps {
+				min-height: 90px;
 		}
 }
 /* Extra small: 0px (320px) - 400px */

@@ -138,7 +138,7 @@ textarea {
 
 .header {
 		padding-top: 8px;
-		background: url("../../img/bg.png") no-repeat top center/cover;
+		background: url("../img/bg.png") no-repeat top center/cover;
 }
 .header .wrap-logo {
 		display: -webkit-box;
@@ -996,7 +996,7 @@ textarea {
 /* Medium: 768px - 991px */
 @media (max-width: 991px) {
 		.header {
-				background: url("../../img/bg-mobail.png") no-repeat;
+				background: url("../img/bg-mobail.png") no-repeat;
 				background-size: cover;
 				background-position-y: center;
 		}

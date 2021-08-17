@@ -346,7 +346,7 @@ textarea {
 }
 .offer .offer-wrap .offer-form .offer-form__info {
 		padding-top: 18px;
-		background: url("../../img/button2.png") no-repeat;
+		background: url("../img/button2.png") no-repeat;
 		background-size: cover;
 		background-position-y: center;
 		max-height: 94px;
@@ -1012,7 +1012,7 @@ textarea {
 }
 
 .structure {
-		background: url("../../img/bg5.png") no-repeat;
+		background: url("../img/bg5.png") no-repeat;
 		background-size: cover;
 		padding: 60px 0;
 		background-position-x: center;
@@ -1545,7 +1545,7 @@ textarea {
 }
 .footer .footer-wrap .footer-form .footer-form__info {
 		padding-top: 18px;
-		background: url("../../img/button2.png") no-repeat;
+		background: url("../img/button2.png") no-repeat;
 		background-size: cover;
 		background-position-y: center;
 		max-height: 94px;

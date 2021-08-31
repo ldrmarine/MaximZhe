@@ -18,7 +18,7 @@
 .offer .main-title {
  position: relative;
  z-index: 5;
- background: #f655a0;
+ background: rgb(85 172 246);
  font-size: 30px;
  line-height: 36px;
  font-weight: 700;
@@ -33,11 +33,11 @@
 }
 
 .offer .box {
+margin-top: -15px;
  position: relative;
-
  background: url("../img/1.jpg") 50% 0 no-repeat #e8efe8;
  background-size: contain;
- padding: 500px 0 20px;
+ padding: 476px 0 20px;
  -webkit-border-radius: 0 0 20px 20px;
  -moz-border-radius: 0 0 20px 20px;
  border-radius: 0 0 20px 20px;
@@ -53,7 +53,7 @@
  text-align: center;
  text-transform: uppercase;
  color: #fff;
- font-size: 14px;
+ font-size: 13px;
  font-weight: 500;
  line-height: 30px;
  padding-top: 30px;
@@ -113,11 +113,11 @@
  line-height: 22px;
  padding: 15px 0;
  color: #fff;
- background: rgb(246, 85, 160);
- background: -moz-linear-gradient(top, rgba(246, 85, 160, 1) 0%, rgba(152, 49, 95, 1) 100%);
- background: -webkit-linear-gradient(top, rgba(246, 85, 160, 1) 0%, rgba(152, 49, 95, 1) 100%);
- background: linear-gradient(to bottom, rgba(246, 85, 160, 1) 0%, rgba(152, 49, 95, 1) 100%);
- filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f655a0', endColorstr='#98315f', GradientType=0);
+ background: rgb(85 172 246);
+ background: -moz-linear-gradient(top, rgb(85 172 246) 0%, #4a93d2 100%);
+ background: -webkit-linear-gradient(top,  rgb(85 172 246) 0%, #4a93d2 100%);
+ background: linear-gradient(to bottom,  rgb(85 172 246) 0%, #4a93d2 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgb(85 172 246)', endColorstr='#4a93d2', GradientType=0);
  -webkit-border-radius: 0 0 20px 20px;
  -moz-border-radius: 0 0 20px 20px;
  border-radius: 0 0 20px 20px;
@@ -135,7 +135,7 @@
  width: 36px;
  height: 36px;
  line-height: 36px;
- background: #f655a0;
+ background: rgb(85 172 246);
  color: #fff;
  margin: 0 5px;
  -webkit-border-radius: 50%;
@@ -207,9 +207,9 @@
 
 .post .info .ava img {
  display: block;
- -webkit-box-shadow: 0 0 0 1px #f0f;
- -moz-box-shadow: 0 0 0 1px #f0f;
- box-shadow: 0 0 0 1px #f0f;
+ -webkit-box-shadow: 0 0 0 1px rgb(85 172 246);
+ -moz-box-shadow: 0 0 0 1px rgb(85 172 246);
+ box-shadow: 0 0 0 1px rgb(85 172 246);
  -webkit-border-radius: 50%;
  -moz-border-radius: 50%;
  border-radius: 50%;
@@ -240,7 +240,7 @@
 .s2 .alert {
  width: 440px;
  height: 156px;
- background: url("../img/s2-alert-bg.png") 270px 50% no-repeat #f655a0;
+ background: url("../img/s2-alert-bg.png") 270px 50% no-repeat#f655a0;
  color: #fff;
  font-size: 18px;
  margin: 0 auto 30px;
@@ -266,7 +266,7 @@
 .s3 .alert {
  position: relative;
  color: #fff;
- background: #98315f;
+ background: rgb(85 172 246);
  margin: 0 20px;
  padding: 12px 180px 0 20px;
  -webkit-border-radius: 20px;
@@ -414,7 +414,7 @@
 /*   order steps   */
 
 .order-steps {
- background: #f655a0;
+ background: rgb(85 172 246);
  padding-bottom: 0;
 }
 
@@ -442,7 +442,7 @@
 
 .order-steps ul li:nth-child(1),
 .order-steps ul li:nth-child(4) {
- background: #f875b2;
+ background: rgb(85 149 246);
 }
 
 .order-steps ul li .icon {
@@ -466,7 +466,7 @@
  font-size: 30px;
  font-weight: 700;
  text-align: center;
- color: #f655a0;
+ color: rgb(85 149 246);
  background: #fff;
  -webkit-border-radius: 50%;
  -moz-border-radius: 50%;

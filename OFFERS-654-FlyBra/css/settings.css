@@ -191,7 +191,7 @@ h2.title {
 }
 
 h2.title span {
- color: #f655a0;
+ color: #603a6d;
 }
 
 /*   timer   */
@@ -222,7 +222,7 @@ h2.title span {
  margin: 0 15px;
  background: #fff;
  color: #222;
- border: 2px solid #f655a0;
+ border: 2px solid #603a6d;
  -webkit-border-radius: 50%;
  -moz-border-radius: 50%;
  border-radius: 50%;
@@ -304,5 +304,5 @@ h2.title span {
 
 .price .new .val {
  font-weight: 700;
- color: #f655a0;
+ color: #603a6d;
 }

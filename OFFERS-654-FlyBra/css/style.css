@@ -18,7 +18,7 @@
 .offer .main-title {
  position: relative;
  z-index: 5;
- background:#603a6d;
+ background: #98315f;
  font-size: 30px;
  line-height: 36px;
  font-weight: 700;
@@ -113,11 +113,11 @@ margin-top: -15px;
  line-height: 22px;
  padding: 15px 0;
  color: #fff;
- background: #603a6d;
- background: -moz-linear-gradient(top, #603a6d 0%, #603a6d  100%);
- background: -webkit-linear-gradient(top, #603a6d 0%, #603a6d 100%);
- background: linear-gradient(to bottom, #603a6d 0%, #603a6d 100%);
- filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#603a6d', endColorstr='#603a6d', GradientType=0);
+ background:  #98315f;
+ background: -moz-linear-gradient(top,  #98315f 0%,  #98315f  100%);
+ background: -webkit-linear-gradient(top,  #98315f 0%,  #98315f 100%);
+ background: linear-gradient(to bottom,  #98315f 0%,  #98315f 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=' #98315f', endColorstr=' #98315f', GradientType=0);
  -webkit-border-radius: 0 0 20px 20px;
  -moz-border-radius: 0 0 20px 20px;
  border-radius: 0 0 20px 20px;
@@ -135,7 +135,7 @@ margin-top: -15px;
  width: 36px;
  height: 36px;
  line-height: 36px;
- background: #603a6d;
+ background:  #98315f;
  color: #fff;
  margin: 0 5px;
  -webkit-border-radius: 50%;
@@ -240,7 +240,7 @@ margin-top: -15px;
 .s2 .alert {
  width: 440px;
  height: 156px;
- background: url("../img/s2-alert-bg.png") 270px 50% no-repeat #603a6d;
+ background: url("../img/s2-alert-bg.png") 270px 50% no-repeat  #98315f;
  color: #fff;
  font-size: 18px;
  margin: 0 auto 30px;
@@ -414,7 +414,7 @@ margin-top: -15px;
 /*   order steps   */
 
 .order-steps {
- background: #603a6d;
+ background:  #98315f;
  padding-bottom: 0;
 }
 
@@ -466,7 +466,7 @@ margin-top: -15px;
  font-size: 30px;
  font-weight: 700;
  text-align: center;
- color: #603a6d;
+ color:  #98315f;
  background: #fff;
  -webkit-border-radius: 50%;
  -moz-border-radius: 50%;
@@ -541,7 +541,7 @@ margin-top: -15px;
 .copyright br { display: none; }
 .copyright img { margin: 10px auto!important; max-width:100%; }
 .copyright a {color: #6C6E6F; text-decoration: none;}
-.copyright a:hover { color:#603a6d; text-decoration: none; }
+.copyright a:hover { color: #98315f; text-decoration: none; }
 
 .errField { display:none; font-size: 14px; background: #f00; color: #fff; text-align: center; padding: 10px; margin-bottom:10px; }
 

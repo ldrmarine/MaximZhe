@@ -18,7 +18,7 @@
 .offer .main-title {
  position: relative;
  z-index: 5;
- background: #f655a0;
+ background:#603a6d;
  font-size: 30px;
  line-height: 36px;
  font-weight: 700;
@@ -33,11 +33,11 @@
 }
 
 .offer .box {
+margin-top: -15px;
  position: relative;
-
  background: url("../img/1.jpg") 50% 0 no-repeat #e8efe8;
  background-size: contain;
- padding: 500px 0 20px;
+ padding: 476px 0 20px;
  -webkit-border-radius: 0 0 20px 20px;
  -moz-border-radius: 0 0 20px 20px;
  border-radius: 0 0 20px 20px;
@@ -113,11 +113,11 @@
  line-height: 22px;
  padding: 15px 0;
  color: #fff;
- background: rgb(246, 85, 160);
- background: -moz-linear-gradient(top, rgba(246, 85, 160, 1) 0%, rgba(152, 49, 95, 1) 100%);
- background: -webkit-linear-gradient(top, rgba(246, 85, 160, 1) 0%, rgba(152, 49, 95, 1) 100%);
- background: linear-gradient(to bottom, rgba(246, 85, 160, 1) 0%, rgba(152, 49, 95, 1) 100%);
- filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f655a0', endColorstr='#98315f', GradientType=0);
+ background: #603a6d;
+ background: -moz-linear-gradient(top, #603a6d 0%, #603a6d  100%);
+ background: -webkit-linear-gradient(top, #603a6d 0%, #603a6d 100%);
+ background: linear-gradient(to bottom, #603a6d 0%, #603a6d 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#603a6d', endColorstr='#603a6d', GradientType=0);
  -webkit-border-radius: 0 0 20px 20px;
  -moz-border-radius: 0 0 20px 20px;
  border-radius: 0 0 20px 20px;
@@ -135,7 +135,7 @@
  width: 36px;
  height: 36px;
  line-height: 36px;
- background: #f655a0;
+ background: #603a6d;
  color: #fff;
  margin: 0 5px;
  -webkit-border-radius: 50%;
@@ -240,7 +240,7 @@
 .s2 .alert {
  width: 440px;
  height: 156px;
- background: url("../img/s2-alert-bg.png") 270px 50% no-repeat #f655a0;
+ background: url("../img/s2-alert-bg.png") 270px 50% no-repeat #603a6d;
  color: #fff;
  font-size: 18px;
  margin: 0 auto 30px;
@@ -414,7 +414,7 @@
 /*   order steps   */
 
 .order-steps {
- background: #f655a0;
+ background: #603a6d;
  padding-bottom: 0;
 }
 
@@ -442,7 +442,7 @@
 
 .order-steps ul li:nth-child(1),
 .order-steps ul li:nth-child(4) {
- background: #f875b2;
+ background: #51375a;
 }
 
 .order-steps ul li .icon {
@@ -466,7 +466,7 @@
  font-size: 30px;
  font-weight: 700;
  text-align: center;
- color: #f655a0;
+ color: #603a6d;
  background: #fff;
  -webkit-border-radius: 50%;
  -moz-border-radius: 50%;
@@ -541,7 +541,7 @@
 .copyright br { display: none; }
 .copyright img { margin: 10px auto!important; max-width:100%; }
 .copyright a {color: #6C6E6F; text-decoration: none;}
-.copyright a:hover { color:#FF0069; text-decoration: none; }
+.copyright a:hover { color:#603a6d; text-decoration: none; }
 
 .errField { display:none; font-size: 14px; background: #f00; color: #fff; text-align: center; padding: 10px; margin-bottom:10px; }
 
